@@ -12,7 +12,7 @@ public class InsertData {
 			String query="insert into empdb.emp value(101,'Baushra','research',1,'F')";
 			Statement smt=con.createStatement();
 			smt.executeUpdate(query);
-			con.close();smt.close();
+			con.close();
 			
 		}
 		catch(Exception e)
